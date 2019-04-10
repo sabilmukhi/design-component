@@ -1,21 +1,26 @@
+*{
+
+}
 
 .body{
-  border:1px solid;
+  border: solid;
   border-color: black;
 }
+
 .Card{
   align-content:inherit;
   padding: 4px;
   width: 400px;
-  background-color: #7BE0E3;
+  background-color: #D0D3D4;
   border: 1px solid;
   border-color: black;
   border-radius: 5px;
-
 }
+
 .Card img{
-  width: 100%
-  border:1px black;
+  width: 95%
+  border:3px solid #021a40;
+  background-color: #D0D3D4;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -23,9 +28,14 @@
 .Card:hover{
   box-shadow: 3px 3px 12px black;
 }
-title{
-  text-align:inherit;
-  padding: 5px;
+
+h1{
+  text-align: inherit;
+  padding: 3px;
+}
+
+h2{
+  text-align: center;
 }
 
 button{
@@ -42,4 +52,5 @@ button:hover{
   background-color: black;
   transition: 0.5s;
   cursor: pointer;
+  box-shadow: 2px 2px 8px black;
 }
