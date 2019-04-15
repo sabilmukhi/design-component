@@ -1,0 +1,60 @@
+*{
+  padding: 5px;
+  margin: 0;
+  font-family: "Century Gothic";
+  list-style: none;
+  text-decoration: none;
+}
+.body{
+  border: solid;
+  border-color: blue;
+}
+
+.Card{
+  position: absolute;
+  align-content:justify;
+  padding: 5px;
+  width: 400px;
+  height: 560px;
+  background-color: #EBF5FB;
+  border: .5px solid;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.Card img{
+  width: 96%;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border:3px solid #021a40;
+  background-color: #D0D3D4;
+
+}
+
+.Card:hover{
+  box-shadow: 2px 2px 10px blue;
+}
+
+
+
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: blue;
+  border: 1px solid black;
+  padding: 4px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 1px 1px 4px black;
+}
+
+.sidenav{
+  font-size: 10px;
+}
