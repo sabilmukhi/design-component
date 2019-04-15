@@ -1,138 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Sample Stylesheet </title>
-  <link rel="stylesheet" type="text/css" href="styleguide.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+*{
+  box-sizing: border-box;
+}
 
-<body>
-  <h1>Sample Stylesheet</h1>
-  <h2>'Type of Headings'</h2>
-  <div>
+body{
+  align-items:center;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding: 20px 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color:#white;
+}
+h1{
+  text-decoration:inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+h2,h3,h4{
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+section{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.text{
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#CD5C5C;
+}
+.link{
+  color:#A71C81;
+}
 
-    <h1>Heading1</h1>
-    <h2>Heading2</h2>
-    <h3>Heading3</h3>
-    <h4>Heading4</h4>
-  </div>
-<h3>'Navigation Bar'</h3>
-<div class="topnav">
- <a class="active" href="#home">CDU Home  |</a>
- <a href="#">Courses  |</a>
- <a href="#">Library  |</a>
- <a href="#">Learnline Log-in</a>
- <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
-</div>
+.topnav {
+  background-color:  #640B17;
+  overflow: hidden;
+}
 
-  <h3>'Cards'</h3>
-  <div class="Card">
-  <h2>Heading</h2>
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color:#99A3A4;
+  color: black;
+}
 
-  <img src="#">Image
+.color {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid black;
+  margin-left: 90px;
 
-   <p>(Introduction paragraph of the page)</p>
-     <ul>
-       <li><a href="#">Link1</a></li>
-       <li><a href="#">Link2</a></li>
-       <li><a href="#">Link3</a></li>
-       <li><a href="#">Link4</a></li>
-     </ul>
+}
+.color--primary{
+  background-color:  #0A2D92;
+}
+.color--secondary{
+  background-color:  #BAECF9;
+}
+.color--dark{
+  background-color:  #640B17;
+}
+.color--light{
+  background-color:  #FFFFFF;
+}
+.color--used{
+  background-color:  #0a0a69;
+}
+.color--used1{
+  background-color:  #99A3A4;
+}
+.dropbtn {
+  background-color: #0a0a69;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
 
-  <a href="#"><button>Load more</button></a>
-</div>
+.dropdown {
+  display: inline-block;
+}
 
-  <section>
-  <h2>'BODY TEXT'</h2>
-  <h3>PARAGRAPH</h3>
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 1;
+}
 
-  <p>Here I am giving a example of how my mini website contant will looks like. Some of the <b>"key word"</b> will be in bold style.</p>
-    <div class="text"> Also, some of the text are in different color for imporanat note.</div>
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-  </section>
+.dropdown-content a:hover {
+  background-color: #640B17;}
 
+.dropdown:hover .dropdown-content {
+  display: block;}
 
-  <section>
-    <h3>'Link'</h3>
-    <div>
-      <a href="#">
-        <p>This is a link.</p>
-        </a>
-    </div>
-    <div>
-      <a href="#" class="link">
-        <p>This is another visited link.</p>
-        </a>
-    </div>
-  </section>
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;}
 
-
-  <section>
-    <h3>'LIST'</h3>
-    <h5> Order List</h4>
-
-    <ul>
-      <li> A</li>
-      <li> B</li>
-        <ul>
-          <li>a</li>
-          <li>b</li>
-          <li>c</li>
-        </ul>
-      </ul>
-
-    <h5>Unorder List</h4>
-     <ol>
-       <li> D</li>
-       <li> E</li>
-     </ol>
-   </section>
-
-   <h3>'Dropdown Menu'</h3>
-   <div class="dropdown">
-  <button class="dropbtn">Menu</button>
-  <div class="dropdown-content">
-    <a href="#"> 1</a>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-  </div>
-  </div>
-
-   <section>
-     <h3>'COLOR'</h3>
-     <ul>
-       <li>
-         "primary"<div class="color color--primary"></div>
-
-       </li>
-       <li>
-          "secondary"<div class="color color--secondary"></div>
-
-       </li>
-       <li>
-          "dark"<div class="color color--dark"></div>
-
-       </li>
-       <li>
-         "light"<div class="color color--light"></div>
-
-       </li>
-       <li>
-         "used"<div class="color color--used"></div>
-
-       </li>
-       <li>
-         "used1"<div class="color color--used1"></div>
-
-       </li>
-     </ul>
-   </section>
-
-</body>
-</html>
-  +-+
+  @media only screen and (max-width:500px) {
+    .head, .body {
+      width: 100%;
+    }
+  }
+  .Card{
+    align-content:inherit;
+    padding: 4px;
+    width: 250px;
+    height: 300px;
+    background-color: #D0D3D4;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .Card:hover{
+  box-shadow: 3px 3px 12px black;
+}
