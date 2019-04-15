@@ -52,6 +52,20 @@ section{
   background-color:#99A3A4;
   color: black;
 }
+.Card{
+    align-content:inherit;
+    padding: 4px;
+    width: 250px;
+    height: 300px;
+    background-color: #D0D3D4;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.Card:hover{
+  box-shadow: 3px 3px 12px black;
+}
 
 .color {
 	width: 30px;
