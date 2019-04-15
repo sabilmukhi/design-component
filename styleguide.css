@@ -20,7 +20,7 @@ h1{
 }
 h2,h3,h4{
   font-family: sans-serif;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 section{
   margin-top: 40px;
@@ -51,6 +51,20 @@ section{
 .topnav a:hover {
   background-color:#99A3A4;
   color: black;
+}
+.Card{
+    align-content:inherit;
+    padding: 4px;
+    width: 250px;
+    height: 300px;
+    background-color: #D0D3D4;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.Card:hover{
+  box-shadow: 3px 3px 12px black;
 }
 
 .color {
@@ -121,17 +135,20 @@ section{
       width: 100%;
     }
   }
-  .Card{
-    align-content:inherit;
+
+  button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+    border: 1px solid black;
     padding: 4px;
-    width: 250px;
-    height: 300px;
-    background-color: #D0D3D4;
-    border: 1px solid;
-    border-color: black;
+    text-align: center;
     border-radius: 5px;
-    margin-top: 20px;
   }
-  .Card:hover{
-  box-shadow: 3px 3px 12px black;
-}
+
+  button:hover{
+    background-color: blue;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px black;
+  }
