@@ -22,8 +22,14 @@
  <a href="#">Courses  |</a>
  <a href="#">Library  |</a>
  <a href="#">Learnline Log-in</a>
+ <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
 </div>
- 
+
   <h3>'Cards'</h3>
   <div class="Card">
   <h2>Heading</h2>
@@ -54,32 +60,37 @@
   <section>
     <h3>'Link'</h3>
     <div>
-      <a href="#">This is a link</a>
+      <a href="#">
+        <p>This is a link.</p>
+        </a>
     </div>
     <div>
-      <a href="#" class="link">This is a visited link</a>
+      <a href="#" class="link">
+        <p>This is another visited link.</p>
+        </a>
     </div>
   </section>
 
 
   <section>
     <h3>'LIST'</h3>
-    <h4>Type of list(ordered)</h4>
+    <h5> Order List</h4>
 
     <ul>
-      <li>List</li>
-      <li>list</li>
-      <li>"SUBLIST"
+      <li> A</li>
+      <li> B</li>
+      <li>"C"
         <ul>
-          <li>sublist</li>
-          <li>sublist</li>
+          <li>a</li>
+          <li>b</li>
+          <li>c</li>
         </ul>
       </ul>
 
-    <h4>Unorder list</h4>
+    <h5>Unorder List</h4>
      <ol>
-       <li>list</li>
-       <li>list</li>
+       <li> D</li>
+       <li> E</li>
      </ol>
    </section>
 
@@ -87,9 +98,9 @@
    <div class="dropdown">
   <button class="dropbtn">Menu</button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#"> 1</a>
+    <a href="#"> 2</a>
+    <a href="#"> 3</a>
   </div>
   </div>
 
